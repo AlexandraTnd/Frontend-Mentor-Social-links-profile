@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.name {
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+
+.details {
+    color: hsl(0, 1%, 54%);
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.category {
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 10px;
+}
+
+.category:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
